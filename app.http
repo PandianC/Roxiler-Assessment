@@ -1,0 +1,27 @@
+GET  http://localhost:3000/
+Content-Type: application/json
+
+###
+
+GET  http://localhost:3000/transactions/
+
+Content-Type: application/json 
+###
+
+GET http://localhost:3000/statistics/
+Content-Type: application/json
+
+###
+
+GET http://localhost:3000/barchart/?month=January
+Content-Type: application/json
+
+###
+
+GET http://localhost:3000/pieChart/
+Content-Type: application/json
+
+###
+
+GET http://localhost:3000/combined/
+Content-Type: application/json
